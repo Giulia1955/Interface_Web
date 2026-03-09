@@ -1,0 +1,55 @@
+#Main{
+    color: orangered;
+    text-align: center;
+    font-size: 100px;
+}
+
+body{
+    background-color: lightgoldenrodyellow;
+}
+
+.subtitle{
+    color: seagreen;
+    font-family: 'georgia', serif;
+    font-size: 50px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+
+.division{
+    color: rgb(14, 112, 96);
+    font-family: 'georgia', serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 20px;
+}
+
+.list{
+    color: rgb(14, 112, 96);
+    font-family: 'georgia', serif;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(14, 112, 96);
+}
+
+b{
+    color: lightcoral;
+}
+
+p{
+    color: gray;
+    text-indent: 40px;/*inicio do paragrafo*/
+    font-size: 18px;
+    font-variant: bold;
+    margin: 20px;
+}

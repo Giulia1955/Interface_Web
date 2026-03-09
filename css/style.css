@@ -1,0 +1,83 @@
+h1{
+    color: palevioletred;
+    font-family: 'georgia', serif;
+    font-size: 70px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    /*text-transform: uppercase;*/
+}
+
+h2{
+    color: lightseagreen;
+    font-family: 'georgia', serif; 
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: left;
+    /*text-transform: lowercase;*/
+    text-indent: 20px;
+    text-decoration: double underline;
+    background-color: aliceblue;
+}
+
+
+p{
+    color: gray;
+    text-indent: 40px;/*inicio do paragrafo*/
+    font-size: 18px;
+    font-variant: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: lightcyan;
+}
+
+#title1{
+    color: palevioletred;
+    font-family: 'georgia', serif;
+    font-size: 100px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    /*text-transform: uppercase;*/
+}
+
+#title2{
+    color: lightseagreen;
+    font-family: 'georgia', serif; 
+    font-size: 70px;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: left;
+    /*text-transform: lowercase;*/
+    text-indent: 20px;
+    text-decoration: double underline;
+    background-color: aliceblue;
+}
+
+.paragraph_special{
+    font-family: 'Lucida Handwriting', cursive;
+    color: darkmagenta;
+    text-indent: 40px;/*inicio do paragrafo*/
+    font-size: 18px;
+    font-variant: bold;
+}
+
+.paragraph{
+    color: gray;
+    text-indent: 40px;/*inicio do paragrafo*/
+    font-size: 18px;
+    font-variant: bold;
+}
+
+.paragraph_small{   
+    color: gray;
+    text-indent: 40px;/*inicio do paragrafo*/
+    font-size: 14px;
+    font-variant: bold;
+}
