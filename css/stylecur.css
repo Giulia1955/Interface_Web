@@ -1,11 +1,18 @@
 #Main{
-    color: orangered;
+    font-family: Z003;
+    color: rgb(221, 0, 92);
     text-align: center;
     font-size: 100px;
 }
 
 body{
-    background-color: lightgoldenrodyellow;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+    background-image: url(/css/aulaImagem/imagens/bgAquarela.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .subtitle{
@@ -48,8 +55,14 @@ b{
 
 p{
     color: gray;
-    text-indent: 40px;/*inicio do paragrafo*/
+    text-indent: 40px;
     font-size: 18px;
     font-variant: bold;
     margin: 20px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    float: left;
 }
