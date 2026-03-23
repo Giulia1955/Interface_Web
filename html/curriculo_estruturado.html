@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo Giulia Mezaroba</title>
+    <link rel="stylesheet" href="../css/style_estruturado.css">
+</head>
+<body>
+    <header class = "cabecalho">
+        <div class="dados-pessoais">
+            <h1 id="main">Currículo Giulia Mezaroba</h1>
+
+            <a href = "https://www.linkedin.com/in/giuliamezaroba/" target="_blank">
+                <img src = "../css/aulaImagem/imagens/FotoGiulia.jpeg" alt = "Foto de Giulia Mezaroba" width = "150px">
+            </a>
+        </div>
+
+        
+    </header>
+
+    <main>
+        <section class = "informacoes1">
+            <nav class = "redes">
+            <h2 class = "subtitle">Dados Pessoais </h2>
+            <h3 class = "division">Redes Sociais e Meios de Contato</h3>
+                <ul class = "list">
+                    <li><a href="https://www.linkedin.com/in/giuliamezaroba/" target="_blank"> LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"> Instagram</a></li>
+                    <li>Telefone: (42) 99960-8976</li>
+                    <li><a href="mailto:giuliamezaroba@gmail.com">Email</a></li>
+                    <li><a href="https://github.com/Giulia1955" target="_blank"> GitHub</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section class = "informacoes2">
+            <h3 class = "division">Sobre mim:</h3>
+            <p>Estudante de Ciência da Computação, com estudos e projetos voltados ao desenvolvimento de software e a Inteligência Artificial. <br/>
+                Minha trajetória acadêmica consolidou expertises em Deep Learning (transformers, hugging face).
+                Focada em aplicar engenharia de software moderna para criar automações inteligentes e escaláveis.<br/>
+                Além disso, possuo background nas áreas de idiomas (inglês, espanhol, francês, italiano e português), administração e marketing.</p>
+        </section>
+        <section class = "informacoes3">
+            <h3 class = "division">Formação</h3>
+                <ol class = "cursos">
+                    <li>Curso Técnico em Cooperativismo/<b>Administração - IFPR</b></li>
+                    <li>Curso de <b>Inglês</b> - <em>Excellent Global</em></li>
+                    <li>Curso Trilingue (<b>Francês, Espanhol e Italiano</b>) - <em>Excellent Global</em></li>
+                    <li><b>Ciência da Computação</b> - UNICENTRO (em andamento)</li>
+                    <li>Bolsista do Projeto PET - UNICENTRO (em andamento)</li>
+                    <li>Projeto de IC em <b>Desenvolvimento de Redes Neurais para Categorização de Crimes no Ambiente Digital </b> - UNICENTRO (em andamento)</li>
+                </ol>
+        </section>
+        <section class="skills">
+            <h2 class="subtitle">Habilidades e Competência</h2>
+
+            <div class="carousel">
+                <button class="prev">&#10094;</button>
+
+                <div class="carousel-track">
+                    <article class="slide">
+                        <h3 class="division_slide">Ciência de Dados e Machine Learning</h3>
+                        <ul class="list_slide">
+                            <li>Modelagem de Machine Learning (Classificação, Regressão).</li>
+                            <li>Redes Neurais Profundas (Deep Learning) com PyTorch.</li>
+                            <li>Processamento, Limpeza, Análise e Visualização de Dados.</li>
+                        </ul>
+                    </article>
+
+                    <article class="slide">
+                        <h3 class="division_slide">Linguagens de Programação</h3>
+                        <ul class="list_slide">
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>Java</li>
+                            <li>TypeScript</li>
+                            <li>C++</li>
+                        </ul>
+                    </article>
+
+                    <article class="slide">
+                        <h3 class="division_slide">Diferenciais</h3>
+                        <ul class="list_slide">
+                            <li>Perfil técnico multidisciplinar</li>
+                            <li>Visão Administrativa e Comercial</li>
+                            <li>Experiência internacional</li>
+                            <li>Capacidade de liderança</li>
+                            <li>Didática e impacto social</li>
+                        </ul>
+                    </article>
+                </div>
+
+                <button class="next">&#10095;</button>
+            </div>
+        </section>
+
+        <script>
+            const track = document.querySelector('.carousel-track');
+            const slides = document.querySelectorAll('.slide');
+            const next = document.querySelector('.next');
+            const prev = document.querySelector('.prev');
+
+            let index = 0;
+
+            function updateCarousel() {
+                track.style.transform = `translateX(-${index * 100}%)`;
+            }
+
+            next.addEventListener('click', () => {
+                if (index < slides.length - 1) {
+                    index++;
+                } else {
+                    index = 0;
+                }
+                updateCarousel();
+            });
+
+            prev.addEventListener('click', () => {
+                if (index > 0) {
+                    index--;
+                } else {
+                    index = slides.length - 1;
+                }
+                updateCarousel();
+            });
+        </script>   
+    </main>
+    
+    <footer>
+        <p>&copy; 2026 Giulia Mezaroba. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

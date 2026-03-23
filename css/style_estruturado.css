@@ -1,0 +1,230 @@
+.cabecalho{
+    background-image: url("../css/aulaImagem/imagens/purplecat.jpeg");
+    background-size: cover;
+    height: 360px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    opacity: 0.9;
+}
+
+.dados-pessoais{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    color: wheat;
+}
+
+.dados-pessoais h1{
+    color: ghostwhite;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.dados-pessoais img{
+    border-radius: 40%;
+    border: 4px solid whitesmoke;
+    margin-top: 10px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #FDE2FF;
+    margin: 0;
+    padding: 0;
+}
+
+.informacoes1{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: ghostwhite;
+    margin-bottom: 10px;
+}
+
+.informacoes2{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: ghostwhite;
+    margin-bottom: 10px;
+}
+
+.informacoes3{
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    background-color: ghostwhite;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 28px;
+    color: purple;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: lavender;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 20px;
+    border-color: ghostwhite;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.informacoes1 p, .informacoes2 p, .informacoes3 p{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    text-align: justify;
+    padding: 15px;
+}
+
+h3{
+    font-size: 24px;
+    color: rgb(151, 3, 126);
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.list{
+    font-size: 17;
+    list-style-type:square;
+}
+
+.list li a{
+    text-decoration: none;
+    color:darkorchid;
+    font-size: 17px;
+}
+
+.list li a:hover{
+    color:hotpink;
+}
+
+.list li a:visited{
+    color:darkmagenta
+}
+
+.cursos{
+    list-style-type: upper-roman;
+}
+
+.carousel {
+    position: relative;
+    width: 700px;
+    margin: 40px auto;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list_slide {
+    text-align: left;
+    padding: 0;
+}
+
+.list_slide li {
+    list-style: none;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.list_slide li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: purple;
+    font-size: 18px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    color: hotpink;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    
+    width: 45px;
+    height: 45px;
+    
+    font-size: 22px;
+    cursor: pointer;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background-color: purple;
+    color: white;
+}
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.division_slide {
+    font-size: 28px;
+    color: purple;
+    margin-bottom: 20px;
+}
+
+article ul li{
+    list-style-type: none;
+    text-align: left;
+}
+
+footer{
+    background-image: url("../css/aulaImagem/imagens/purplecat.jpeg");
+    background-size: cover;
+    background-position: center left;
+    height: 200px; 
+    
+}
+
+
+
+footer p{
+    color: ghostwhite;
+    font-size: 20px;
+    text-align: right;
+    padding-top: 5px;
+}
