@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Overflow</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: rgba(166, 215, 218, 0.5);
+            padding: 16px;
+            width: 300px;
+            height: 300px;
+            margin-bottom: 16px;
+        }
+        .item{
+            background-color: lightseagreen;
+            margin-bottom:10px;
+            padding: 5px;
+        }
+        .fit-content{
+            width: fit-content;
+        }
+        .min-content{
+            width: min-content;
+            overflow-y:auto;
+        }
+        .max-content{
+            width: max-content;
+            max-width: 100%;
+            overflow-x: auto;
+        }
+
+        .overflow-auto{
+            overflow: auto;
+        }
+        .overflow-visible{
+            overflow: visible;
+        }
+        .overflow-hidden{
+            overflow: hidden;
+        }
+        .overflow-scroll{
+            overflow: scroll;
+        }
+    </style>
+</head>
+<body>
+    <div class = "container fit-content overflow-visible">
+        <p class="item">Lorem</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, commodi.</p>
+        <p class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ducimus itaque, esse nisi dolor id iste impedit quod eos? Dignissimos!</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam possimus aperiam expedita mollitia libero rerum quas vitae repellendus sunt reiciendis provident fugiat natus, harum accusamus commodi! Iure suscipit vero, doloremque pariatur reprehenderit, corporis fugit doloribus mollitia, praesentium impedit nobis nisi debitis iste repudiandae minus sint enim tempore illo quidem!</p>
+    </div>
+    <div class = "container min-content overflow-scroll">
+        <p class="item">Lorem</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, commodi.</p>
+        <p class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ducimus itaque, esse nisi dolor id iste impedit quod eos? Dignissimos!</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam possimus aperiam expedita mollitia libero rerum quas vitae repellendus sunt reiciendis provident fugiat natus, harum accusamus commodi! Iure suscipit vero, doloremque pariatur reprehenderit, corporis fugit doloribus mollitia, praesentium impedit nobis nisi debitis iste repudiandae minus sint enim tempore illo quidem!</p>
+    </div>
+    <div class = "container max-content overflow-scroll">
+        <p class="item">Lorem</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, commodi.</p>
+        <p class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam ducimus itaque, esse nisi dolor id iste impedit quod eos? Dignissimos!</p>
+        <p class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam possimus aperiam expedita mollitia libero rerum quas vitae repellendus sunt reiciendis provident fugiat natus, harum accusamus commodi! Iure suscipit vero, doloremque pariatur reprehenderit, corporis fugit doloribus mollitia, praesentium impedit nobis nisi debitis iste repudiandae minus sint enim tempore illo quidem!</p>
+    </div>
+
+</body>
+</html>

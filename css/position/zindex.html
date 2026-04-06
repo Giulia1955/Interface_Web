@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Z-index</title>
+    <style>
+        div{
+            border: 3px solid crimson;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: lightsteelblue;
+            font-size: 20px;
+            width: 60%;
+        }
+        .div2.group1{
+            position: absolute;
+            top: 100px;
+            right: 0;
+            background-color: azure;
+            z-index: 1;
+        }
+        .div2.group2{
+            position: absolute;
+            top: 0px;
+            right: 0;
+            background-color: azure;
+            z-index: 2;
+        }
+        .div4.group1{
+            position: relative;
+            bottom: 30px;
+            left: 15;
+            background-color: pink;
+            z-index: 3;
+        }
+        .div3.group1{
+            position: relative;
+            bottom: 30px;
+            left: 15;
+            background-color: purple;
+            z-index: 4;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1 group1">
+        div1 group1
+        <div class="div2 group1">
+            div2 group1
+            <div class="div3 group1">
+                div3 group1
+            </div>
+            <div class="div4 group1">
+                div4 group1
+            </div>
+        </div>
+    </div>
+
+    <div class="div1 group2">
+        div1 group2
+        <div class="div2 group2">
+            div2 group2
+            <div class="div3 group2">
+                div3 group2
+            </div>
+            <div class="div4 group2">
+                div4 group2
+            </div>
+        </div>
+    </div>
+</body>
+</html>
