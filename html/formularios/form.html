@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes dos Formularios</title>
+    <style>
+        input{
+            display: block;
+            margin-bottom: 1em;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Intro</legend>
+            <input type="email" name="email" placeholder="insira seu email aqui" required>
+            <label for="filhos">Filhos:</label>
+            <input type="number" id="filhos" min="0" max="10">
+            <input type="date" min="2026-04-13">
+            <fieldset>
+                <legend>Possui Comorbidade?</legend>
+                <input type="radio" name="comorbidade" value="Sim">Sim
+                <input type="radio" name="comorbidade" value="Não">Não
+            </fieldset>
+            <fieldset>
+                <legend>Interesse</legend>
+                <label><input type="checkbox" name="interesse" value="html">HTML</label>
+                <label><input type="checkbox" name="interesse" value="css">CSS</label>
+                <label><input type="checkbox" name="interesse" value="js">JavaScript</label>
+            </fieldset>
+            <label>Escolha uma linguagem</label>
+            <select>
+                <option value="disabled" disabled selected>Selecione...</option>
+                <option value="html">HTML</option>
+                <option value="css">CSS</option>
+                <option value="js">JavaScript</option>
+            </select> 
+            <optgroup label="back">
+                <option value="node">Node.js</option>
+                <option value="python">Python</option>
+            </optgroup>
+            <input type="submit" value="Enviar">
+            <fieldset>
+                <input type="text" list="languagelist">
+                <datalist id="languagelist">
+                    <option value="HTML">
+                    <option value="CSS">
+                    <option value="JavaScript">
+                </datalist>
+                <textarea name="msg" cols="100" rows="10" readonly>
+                    Contrato de utilizacao
+                    1.1 clausula 
+                    adofjiqf ni vfiueqhvyuq gefvy
+                </textarea>
+                <input type="file">
+                <input type="hidden" value="valor escondido">
+                <input type="button" value="Botao">
+                <button>Botao</button>
+                <input type="search">
+                <input type="range" min="0" max="100">
+                <input type="color">
+                <input type="time">
+            </fieldset>
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>

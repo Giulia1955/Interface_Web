@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sneakers</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>sneakers</h1>
+            </div>
+
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="actions">
+            <img src="images/icon-cart.svg" alt="Cart" class="icon">
+            <img src="images/face.jpeg" alt="User" class="avatar">
+        </div>
+    </header>
+    <main>
+        <div class="img-show">
+            <img id="main-img" src="images/image-product-1.jpg" alt="Product Image">
+            <div class="small-img">
+                <div class="thumb"><img src="images/image-product-1.jpg"></div>
+                <div class="thumb"><img src="images/image-product-2.jpg"></div>
+                <div class="thumb"><img src="images/image-product-3.jpg"></div>
+                <div class="thumb"><img src="images/image-product-4.jpg"></div>
+            </div>
+        </div>
+        <div class="product-info">
+            <h2 class="company">Sneaker Company</h2>
+            <h1 class="product-name">Fall Limited Edition Sneakers</h1>
+            <p class="description">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            <div class="price">
+                <span class="current-price">$125.00</span>
+                <span class="discount">50%</span>
+            </div>
+            <span class="original-price">$250.00</span>
+            <div class="cart-area">
+                <div class="quantity">
+                    <button id="decrease-btn">
+                        <img src="images/icon-minus.svg">
+                    </button>
+
+                    <input type="number" id="quantity-input" value="0" readonly>
+
+                    <button id="increase-btn">
+                        <img src="images/icon-plus.svg">
+                    </button>
+                </div>
+
+                <button class="add-to-cart">
+                    <img src="images/icon-cart.svg">
+                    Add to cart
+                </button>
+            </div>
+            
+    </main>
+</body>
+</html>
