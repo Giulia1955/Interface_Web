@@ -75,7 +75,7 @@ main {
     border-radius: 100%;
     cursor: pointer;
 }
-/****************************************************************************************************/
+
 .img-show {
     padding: 50px 50px;
     display: flex;
@@ -123,8 +123,6 @@ main {
     border: 2px solid #ff7d1a;
 }
 
-/* ================= INFO PRODUTO ================= */
-
 .product-info {
     max-width: 450px;
 }
@@ -147,7 +145,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* ================= PREÇO ================= */
 
 .price {
     display: flex;
@@ -176,8 +173,6 @@ main {
     display: block;
     font-weight: 800;
 }
-
-/* ================= CART ================= */
 
 .cart-area {
     display: flex;
